@@ -1,0 +1,2 @@
+export PASSWORD="foobar"
+export IDOBATA_HOOK_URL="https://idobata.io/hook/generic/xxxxxxxxx"
