@@ -1,0 +1,12 @@
+machine:
+  ruby:
+    version: 2.2.0
+  timezone: Asia/Tokyo
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: yurudev-idocon
+test:
+  override:
+    - echo 'ok'
